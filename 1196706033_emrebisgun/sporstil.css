@@ -1,0 +1,527 @@
+﻿body {
+    /*background-color:#ff6a00;*/ 
+}
+#sayfa{
+    width:1300px;
+    margin:10px auto;
+    background-color:orange;
+    border:1px solid black;
+    border-radius:10px;
+}
+#header{
+    height:100px;
+    background-color:white;
+    border-radius:10px;
+    margin:2px;
+    padding:5px;
+}
+    #logo_sol img{
+        float:left;
+        width:200px;
+        height:100px;
+        overflow:hidden;
+        border-radius:25px;
+
+    }
+
+    #logo_orta img {
+    position:relative;
+    right:-850px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    }
+    
+#logo_sag img {
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+#menu {
+    background: linear-gradient(#176ca0,#2b298a);
+    border-radius: 6px;
+    margin: 2px;
+    padding: 12px;
+    overflow:auto;
+}
+    #menu ul{
+        list-style-type:none;
+        margin:0px;
+        padding:0px;
+    }
+    #menu ul li{
+        float:left;
+        margin-right:25px;
+        padding-left:15px;
+    }
+    #menu ul li a{
+        color:white;
+        text-decoration:none;
+    }
+    #menu ul li a:hover{
+        color:orange;
+        text-decoration:underline;
+        
+        
+    }
+#sidebar {
+    float: left;
+    width: 200px;
+    height: 750px;
+    background: linear-gradient(#176ca0,#2b298a);
+    border-radius: 6px;
+    margin: 2px;
+    padding: 8px;
+    padding-top:25px;
+}
+    #sidebar ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    #sidebar p{
+        font-weight:bold;
+        font-size:22px;
+        margin-left:25px;
+        color:white;
+        
+    }
+        #sidebar ul li {
+        margin:5px 25px;   
+        padding:2px;
+            
+        }
+        #sidebar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+            #sidebar ul li a:hover {
+                color: orange;
+                text-decoration: underline;
+            }
+    
+        
+#icerik {
+    float: left;
+    background-color:white;
+    width: 860px;
+    height:770px;
+    border-radius: 6px;
+    margin: 2px;
+    padding:8px;
+}
+    #cerceve{
+        margin-top:50px;
+        height:600px;
+        border-radius:8px;
+    }
+    #cerceve h3{
+        text-align:center;
+        font-family:Arial;
+    }
+    .urun{
+        float:left;
+        margin-left:90px;
+        width:300px;
+        height:250px;
+        border:1px dashed blue;
+        border-radius:6px;
+    }
+    .urun:hover{
+        border:1px solid blue;
+    }
+    .urun p{
+        font-weight:bold;
+    }
+    .etiket{
+        float:left;
+    }
+    .indirim{
+        float:right;
+    }
+    .etiket p{
+        width:75px;
+        color:gray;
+        padding:5px;
+        border-radius:5px;
+       text-decoration:line-through;
+    }
+    .indirim p {
+    width: 75px;
+    color:orange;
+    margin-right:130px;
+    padding: 5px;
+    border-radius: 5px;
+    }
+    .incele p a{
+        background-color:red;
+        padding-left:100px;
+        padding-right:159px;
+        padding-top:2px;
+        padding-bottom:2px;
+        color:white;
+        text-decoration:none;
+    }
+        
+    .sepete_ekle{
+        background-color:#1c599a;
+
+    }
+    .sepete_ekle p{
+        line-height:22px;
+        padding-left:100px;
+
+    }
+    .sepete_ekle p a{
+        color:white;
+        text-decoration:none;
+    }
+    
+#sag {
+    float: right;
+    width: 180px;
+    border-radius: 6px;
+    background: linear-gradient(#176ca0,#2b298a);
+    margin: 2px;
+    padding: 8px;
+    height:743px;
+    padding-top:30px;
+}
+    #sag p{
+
+        font-weight:bold;
+        margin-top:15px;
+        color:white;
+        
+    }
+.textbox {
+    border-radius: 8px;
+    outline:0;
+    font-weight:bold;
+}
+
+    .buton {
+        float: right;
+        margin-top: 8px;
+        margin-right: 6px;
+        border-radius: 8px;
+        background-color:white;
+        color:black;
+    }
+        .buton:hover {
+            background-color: orange;
+        }
+    .buton2{
+        position:relative;
+        top:35px;
+        left:120px;
+        border-radius:8px;
+    }
+    .buton2:hover{
+        background-color:orange;
+    }
+#sag_reklam img{
+    margin-top:50px;
+    width:180px;
+    height:180px;
+    border-radius:25px;
+}
+#k_giris a{
+    float:right;
+    padding-top:2px;
+    color:white;
+    text-decoration:none;
+    font-size:12px;
+   font-family:Arial;
+
+}
+#k_giris a:hover{
+    color:orange;
+}
+
+
+
+#footer {
+    background: linear-gradient(#176ca0,#2b298a);
+    height: 100px;
+    border-radius: 6px;
+    margin: 3px 2px;
+    padding: 2px;
+}
+#footer_sol{
+    float:left;
+    margin:5px;
+}
+#footer_sol img{
+    border-radius:20px;
+    width:300px;
+    margin-top:12px;
+}
+#footer_sag{
+    float:left;
+    margin-left:220px;
+    margin-top:25px;
+}
+#footer_sag p{
+    color:white;
+}
+
+
+
+/*  
+    ********Eldiven katalogu********
+
+*/
+.katalog h3{
+
+    text-align:center;
+}
+.urun1 {
+    
+    float: left;
+    margin-left: 40px;
+    margin-top:15px;
+    padding: 2px;
+}
+.urun1 img{
+    width:150px;
+    height:150px;
+    border:1px solid blue;
+    padding:5px;
+}
+    .bilgi{
+    font-family:Arial;
+    font-size:14px;
+    
+}
+.fiyat {
+    color: orange;
+    text-align: center;
+}
+    .incele1{
+        float:left;
+    }
+        .incele1 p {
+            font-size: 16px;
+            background-color: #18689f;
+            padding: 5px;
+            border: 1px solid blue;
+            border-radius: 3px;
+        }
+    .incele1 p a{
+       text-decoration:none;
+       color:white;
+    }
+        .incele1 p:hover {
+            background-color: blue;
+        }
+    .sepete_ekle1{
+        
+        float:right;
+    }
+    .sepete_ekle1 p{
+        font-size:16px;
+        background-color:#18689f;
+        padding:5px;
+        border:1px solid blue;
+        border-radius:3px;
+    }
+    .sepete_ekle1 p a{
+        text-decoration:none;
+        color:white;
+    }
+    .sepete_ekle1 p:hover{
+        background-color:blue;
+    }
+
+
+    /*En çok satan*/
+
+#encoksatan h1 {
+    text-align:center;
+    font-family:'Copperplate Gothic';
+    text-shadow:2px 2px;
+}
+
+.urun_encoksatan {
+    float: left;
+    margin-left: 40px;
+    margin-top:25px;
+    padding: 4px;
+    border:3px solid blue;
+    padding:10px;
+}
+.urun_encoksatan img {
+    width: 180px;
+    height: 180px;
+    border: 2px dotted blue;
+    padding: 5px;
+}
+.bilgi_encoksatan {
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+    background-color: orange;
+    margin-right:12px;
+}
+.fiyat_encoksatan {
+    float:left;
+}
+   .fiyat_encoksatan p{
+     padding:3px;
+     text-decoration:line-through;
+   }
+.indirim_encoksatan {
+    float:right;
+}
+    .indirim_encoksatan p {
+        padding: 3px;
+        font-weight: bold;
+        font-size:24px;
+    }
+    
+.incele_encoksatan {
+    float: left;
+    margin-top:15px;
+}
+    .incele_encoksatan p {
+        font-size: 16px;
+        background-color: #18689f;
+        padding: 5px;
+        border: 1px solid blue;
+        border-radius: 3px;
+    }
+.incele_encoksatan p a {
+    text-decoration: none;
+    color: white;
+}
+.incele_encoksatan p:hover {
+    background-color: blue;
+}
+.sepete_ekle_encoksatan {
+    margin-top: 15px;
+    float: right;
+}
+.sepete_ekle_encoksatan p {
+    font-size: 16px;
+    background-color: #18689f;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+.sepete_ekle_encoksatan p a {
+    text-decoration: none;
+    color: white;
+}
+.sepete_ekle_encoksatan p:hover {
+    background-color: blue;
+}
+#encoksatan_alt img{
+    float:left;
+    margin-top:50px;
+    margin-left:25px;
+    width:125px;
+    height:125px;
+}
+
+/*Ürün detay */
+
+#urun_detay h1 {
+    text-align: center;
+    font-family: 'Copperplate Gothic';
+    text-shadow: 2px 2px;
+}
+#detay_sol{
+    float:left;
+}
+#detay_sol img{
+    margin-top:25px;margin-left:5px;
+}
+#detay_sag{
+    float:left;
+}
+#detay_sag p{
+    font-weight:bold;
+    font-family:Arial;
+    text-decoration:underline;
+}
+#detay_alt{
+    background-color:orange;
+}
+.detay_alt_sol {
+    float: left;
+    margin-left: 85px;
+    margin-top:140px;
+}
+.detay_alt_sol img{
+    width:150px;
+    height:150px;
+    
+}
+/**/
+#sepet>img{
+    float:right;
+    width:125px;
+    height:125px;
+    margin-right:35px;
+}
+#sepet h1 {
+    text-align: center;
+    font-family: 'Copperplate Gothic';
+    text-shadow: 2px 2px;
+}
+.sepet_urun {
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+    padding: 4px;
+    border: 3px solid blue;
+    padding: 10px;
+    background-color:#19679f;
+    border-radius:6px;
+}
+
+.sepet_gorsel {
+    float:left;
+}
+.sepet_gorsel img{
+    
+    width:200px;
+    height:200px;
+}
+.sepet_arti img{
+    float:right;
+    margin-top:-45px;
+    width:35px;
+    height:35px;
+}
+.sepet_arti img:hover{
+    width:41px;
+    height:41px;
+}
+.sepet_bilgi p {
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+    background-color: orange;
+    margin-right: 12px;
+    border:1px solid orange;
+    border-radius:6px;
+    font-weight:bold;
+}
+.sepet_fiyat p {
+    padding: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    float:right;
+}
+/*Kayıt Ol*/
+#kayitol h1 {
+    text-align: center;
+    font-family: 'Copperplate Gothic';
+    text-shadow: 2px 2px;
+}
+
+.temizle{clear:both;}
+ 

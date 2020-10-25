@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="_1196706033_emrebisgun.main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="sporstil.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="sayfa">
+            <div id="header">
+                <div id="logo_sol">
+                    <img src="spor/logo_kick.jpeg" />
+                </div>
+                <div id="logo_orta">
+                    <img src="spor/ataturk.jpeg" />
+                </div>
+                <div id="logo_sag">
+                    <img src="spor/bayrak.jpg" />
+                </div>
+            </div>
+            <div class="temizle"></div>
+            <div id="menu">
+                <ul>
+                    <li><a href="default.aspx">Anasayfa</a></li>
+                    <li><a href="encoksatan.aspx">En Çok Satanlar</a></li>
+                    <li><a href="sepet.aspx">Sepet</a></li>
+                    <li><a href="urundetay.aspx">Ürün Detay</a></li>
+                </ul>
+            </div>
+            <div class="temizle"></div>
+            <div id="orta">
+                <div id="sidebar">
+                   <p>Kategoriler</p>
+                    <ul>
+                        <li><a href="eldiven.aspx">Eldiven</a></li>
+                        <li><a href="bandaj.aspx">Bandaj</a></li>
+                        <li><a href="kumtorbasi.aspx">Kum torbası</a></li>
+                        <li><a href="giyim.aspx">Giyim</a></li>
+                        
+                       
+                    </ul>
+                    <ul>
+                        <li><a href="encoksatan.aspx">En Çok Satanlar</a></li>
+                        <li><a href="sepet.aspx">Sepet</a></li>
+                    </ul>
+                    
+                </div>
+                
+                <div id="icerik">
+                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                </div>
+                <div id="sag">
+                    <div id="k_giris">
+                    <p>Kullanıcı Adı</p>
+                    <asp:TextBox ID="TextBox1" runat="server" CssClass="textbox"></asp:TextBox>
+                    <p>Şifre</p>
+                    <asp:TextBox ID="TextBox2" runat="server" TextMode="Password" CssClass="textbox"></asp:TextBox>
+                    <asp:Button ID="Button1" runat="server" Text="Giriş" CssClass="buton" />
+                        <asp:Button ID="Button2" runat="server" Text="Kayıt Ol" CssClass="buton2" />
+                        <div class="temizle"></div>
+                        <br /><p><a href="#">Şifremi unuttum</a></p>
+                        <p><a href="#">Hesabına Erişim yok mu?</a></p>
+                        
+                    </div>
+                    <div class="temizle"></div>
+                    <div id="sag_reklam">
+                        
+
+                    </div>
+                    
+
+                </div>
+                
+            </div>
+            <div class="temizle"></div>
+            <div id="footer">
+                <div id="footer_sol">
+                    <img src="spor/kredikartlari.jpeg" />
+                </div>
+                <div id="footer_sag">
+                    <p>Copyright &copy; Tüm Hakları Saklıdır.</p>
+                </div>
+                </div>
+            <div class="temizle"></div>
+
+
+
+           </div>
+        
+    </form>
+</body>
+</html>
